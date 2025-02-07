@@ -13,5 +13,6 @@ From my initial assessment, I have two possible approaches for setting up my lab
 
 At this stage, I plan on pursuing both options, starting with the internal approach. Mostly because relying on external traffic to test specific attacks is not possible, which is why the setup where i attack myself is preferable (for now) . Also I'm not 100% sure ill get $200 worth of Azure use yet out of this lab so i'm going to save that (also for now).
 
-So obviously i need to steup
+I'm running the lab with two devices my offensive machine the "Threat Actor" running kali linux and the defensive machine running metasploitable2 
+
 
