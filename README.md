@@ -13,6 +13,9 @@ From my initial assessment, I have two possible approaches for setting up my lab
 
 At this stage, I plan on pursuing both options, starting with the internal approach. Mostly because relying on external traffic to test specific attacks is not possible, which is why the setup where i attack myself is preferable (for now) . Also I'm not 100% sure ill get $200 worth of Azure use yet out of this lab so i'm going to save that (also for now).
 
-I'm running the lab with two devices my offensive machine the "Threat Actor" running kali linux and the defensive machine running metasploitable2 
+I'm running the lab with two devices my offensive machine the "Threat Actor" running kali linux and the defensive machine running metasploitable2. 
 
+If you're experiencing kernel panic while downloading the VM, check out this fix: https://medium.com/@dangerhulk26022022/how-to-solve-kernel-panic-not-syncing-io-apic-timer-doesnt-work-bfffe323a1f5 
 
+### Metasploit and Splunk workaround
+After setting up the two VMs i kind of realised how outdated metasploit is and accepted it wont be able to run Splunk (my SIEM of choice here), so im just going to send all the logs to Splunk running on my kali linux (LOL) 
